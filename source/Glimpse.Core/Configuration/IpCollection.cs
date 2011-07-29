@@ -7,8 +7,7 @@ namespace Glimpse.Core.Configuration
     {
         public IpCollection()
         {
-            BaseAdd(new IpAddress{Address = "127.0.0.1"});//IPv4
-            BaseAdd(new IpAddress{Address = "::1"});//IPv6
+            
         }
 
         public IpAddress this[int index]
